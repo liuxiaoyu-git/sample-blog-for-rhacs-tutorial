@@ -42,7 +42,7 @@ spec:
             cpu: "100m"
       containers:
       - name: django
-        image: image-registry.openshift-image-registry.svc:5000/sample-blog/django:latest 
+        image: image-registry.openshift-image-registry.svc:5000/sample-blog/django:v0.1 
         ports:
         - containerPort: 8000
         envFrom:
